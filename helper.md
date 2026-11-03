@@ -30,6 +30,24 @@ The same actions work as commands, e.g. `:Lazy update`, `:Lazy sync`, `:Lazy res
 
 While on, the line under the cursor shows raw markdown so you can still edit it.
 
+## mini.tabline (open buffers bar)
+
+Open buffers are listed along the top. Click one to switch to it.
+
+| Marker | Meaning |
+|---|---|
+| `▸ name` | Current buffer |
+| `name ●` | Unsaved changes |
+| `name M` | Unstaged git changes |
+| `name U` | Untracked by git |
+
+| Key | Action |
+|---|---|
+| `Space l` | Next buffer |
+| `Space h` | Previous buffer |
+| `Space w` | Close current buffer |
+| `Space f b` | Fuzzy-pick from open buffers (telescope) |
+
 ## nvim-tree (file tree)
 
 | Key | Action |
