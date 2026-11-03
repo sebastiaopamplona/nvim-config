@@ -1,5 +1,5 @@
 -- Ported from the old vimscript config.
--- Alt-key characters (ß, æ, ø, ≠) are what iTerm sends for the ⌘ bindings.
+-- Alt-key characters (ß, ≠) are what iTerm sends for the ⌘ bindings.
 local map = vim.keymap.set
 
 -- Save / quit
@@ -47,8 +47,8 @@ map("n", "<leader>t", ":tabclose<CR>")
 map("n", "<leader>w", ":bd<CR>")
 
 -- Jump list back / forward
-map("n", "æ", "<C-o>")
-map("n", "ø", "<C-i>")
+map("n", "<leader>[", "<C-o>")
+map("n", "<leader>]", "<C-i>")
 
 -- Folds
 map("n", "<C-i>", "zc")
