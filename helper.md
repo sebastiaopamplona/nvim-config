@@ -22,6 +22,14 @@ Open the UI with `:Lazy`. Inside it:
 
 The same actions work as commands, e.g. `:Lazy update`, `:Lazy sync`, `:Lazy restore`.
 
+## render-markdown (markdown preview)
+
+| Key | Action |
+|---|---|
+| `Space m` | Toggle the rendered preview (in markdown files) |
+
+While on, the line under the cursor shows raw markdown so you can still edit it.
+
 ## nvim-tree (file tree)
 
 | Key | Action |
@@ -49,3 +57,5 @@ Inside the tree:
 | `E` / `W` | Expand all / collapse all |
 | `g?` | Show all keys |
 | `q` | Close |
+
+[asd](google.com)
